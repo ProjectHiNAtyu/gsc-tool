@@ -29,13 +29,16 @@ extern std::array<std::pair<u16, char const*>, func_count> const func_list
     { 0x0C9, "getscriptablearray" },
     { 0x0DD, "gettime" },
     { 0x0FE, "int" },
+    { 0x103, "isagent" },
     { 0x105, "isai" },
     { 0x108, "isbot" },
     { 0x118, "isplayer" },
     { 0x122, "issubstr" },
     { 0x126, "isusingmatchrulesdata" },
+    { 0x12E, "kick" },
     { 0x13B, "loadfx" },
     { 0x146, "map_restart" },
+    { 0x149, "max" },
     { 0x15A, "obituary" },
     { 0x191, "objective_setpingsforteam" },
     { 0x19C, "playfxontag" },
@@ -64,6 +67,7 @@ extern std::array<std::pair<u16, char const*>, func_count> const func_list
     { 0x351, "makeweapon" },
     { 0x374, "isnullweapon" },
     { 0x424, "brmatchstarted" },
+    { 0x6A62, "getgametype" },
 }};
 
 } // namespace xsk::gsc::s4
