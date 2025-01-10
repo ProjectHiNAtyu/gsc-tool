@@ -10,11 +10,11 @@
 
 namespace xsk::gsc::s4
 {
-
+    
 constexpr usize code_count = 190;
-constexpr usize func_count = 95;
-constexpr usize meth_count = 153;
-constexpr usize token_count = 148;
+constexpr usize func_count = 114;
+constexpr usize meth_count = 221;
+constexpr usize token_count = 282;
 constexpr u32 max_string_id = 0x110F3;
 
 class context : public gsc::context
