@@ -45,6 +45,7 @@ extern std::array<std::pair<u16, char const*>, func_count> const func_list
     { 0x0F2, "getweaponmodel" },
     { 0x0FE, "int" },
     { 0x100, "iprintln" },
+    { 0x101, "iprintlnbold" },
     { 0x103, "isagent" },
     { 0x105, "isai" },
     { 0x106, "isalive" },

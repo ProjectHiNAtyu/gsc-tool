@@ -78,6 +78,7 @@ extern std::array<std::pair<u16, char const*>, meth_count> const meth_list
     { 0x81A4, "hasweapon" },
     { 0x81A5, "hide" },
     { 0x81A9, "hidepart" },
+    { 0x81B7, "iprintln" },
     { 0x81B8, "iprintlnbold" },
     { 0x81C4, "ishost" },
     { 0x81D8, "isonground" },

@@ -12,8 +12,8 @@ namespace xsk::gsc::s4
 {
     
 constexpr usize code_count = 190;
-constexpr usize func_count = 115;
-constexpr usize meth_count = 221;
+constexpr usize func_count = 116;
+constexpr usize meth_count = 222;
 constexpr usize token_count = 282;
 constexpr u32 max_string_id = 0x110F3;
 
